@@ -4,15 +4,16 @@ import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { theme } from '../theme';
 
 export const metadata = {
-  title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
+  title: 'SCAN.ART',
+  description:
+    'The Image Recognition Solution for the Art World. Made for Scanning and recognising Artworks.',
 };
 
 export default function RootLayout({ children }: { children: any }) {
   return (
     <html lang="en">
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="light" />
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
