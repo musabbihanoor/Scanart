@@ -45,7 +45,7 @@ const UseCases = () => {
           <GridCol span={4}>
             <Card h={300} m={10} shadow="sm" padding="xl" radius="md" withBorder>
               <Image src={x.image} h={90} w={90} fit="contain" />
-              <Text mt={20} mb={10} fz="md">
+              <Text mt={20} mb={10} fz="sm">
                 {x.heading}
               </Text>
               <Text fw={'lighter'} fz="xs">
