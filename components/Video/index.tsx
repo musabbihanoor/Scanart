@@ -13,6 +13,7 @@ const Video = () => {
       const ReactPlayer = require('react-player').default; // Dynamic import
       return (
         <ReactPlayer
+          style={{ width: '100%' }}
           url="Link for Video: 
       https://www.youtube.com/watch?v=Y7VYpgQC71A"
         />
@@ -21,7 +22,11 @@ const Video = () => {
     return null;
   };
 
-  return <Center my={50}>{renderPlayer()}</Center>;
+  return (
+    <Center my={50} mx={10}>
+      {renderPlayer()}
+    </Center>
+  );
 };
 
 export default Video;
