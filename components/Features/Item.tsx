@@ -21,7 +21,11 @@ const Feature: React.FC<FeatureProps> = ({ imageSrc, title, description, reverse
         <Text ta={{ base: 'center', sm: 'left' }} fz={{ base: 'xs', sm: 'lg' }}>
           {title}
         </Text>
-        <Text ta={{ base: 'center', sm: 'left' }} fz={{ base: 'xxxs', sm: 'sm' }}>
+        <Text
+          mt={{ base: 10, sm: 0 }}
+          ta={{ base: 'center', sm: 'left' }}
+          fz={{ base: 'xxxs', sm: 'sm' }}
+        >
           {description}
         </Text>
       </GridCol>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid, GridCol, Image, Text, Title } from '@mantine/core';
 import Feature from './Item';
-import { data } from './data';
+import { data } from '@/data/features';
 
 const Features: React.FC = () => {
   return (
